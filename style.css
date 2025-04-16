@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 40px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+
+}
+.cv-container{
+    width: 21cm;
+    min-height: 29.7cm;
+    background: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 25px;
+}
+.left-column{
+    background-color:rgba(245, 245, 220, 0.623);
+    width: 83%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: justify;
+}
+.left-column h3{
+    justify-content: center;
+    display: flex;
+}
+.left-column p{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.experience p{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.experience li{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.right-column{
+    width:  50%;
+    background-color: rgba(0, 0, 255, 0.404);
+    box-sizing: border-box;
+    
+}
+.profile{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+.profile-rond{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 70%;
+    border: 3px solid rgba(0, 255, 255, 0);
+    box-shadow: 0 0 10px rgba(0,0, 0, 2);
+    justify-content: center;
+    display: flex;
+
+}
+.left-column::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.404);
+}
+.profil h3{
+    justify-content: center;
+    display: flex;
+    margin-top: 25px;
+}
+.profil h5{
+    display: flex;
+    justify-content: center;
+}
+.formation h4{
+    justify-content: center;
+    font-display: flex;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact h4{
+    justify-content: center;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact p{
+    justify-content: center;
+    display: flex;
+}
+.formation h5{
+    justify-content: center;
+    display: flex;
+}
+.formation li{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.langue li{
+    text-align: left;
+    justify-content: left;
+    display: flex;
+
+}
